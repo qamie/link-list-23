@@ -1,4 +1,5 @@
 body {
+    /* remove the default margin */
     margin: 0;
     display: flex;
     justify-content: center;
@@ -50,23 +51,23 @@ a:active {
 }
 
 a p {
-    background-color: rgba(100% 100% 100% 0);
+    background-color: rgba(255, 255, 255, 0);
     transition: .3s;
     column-count: 1;
 }
 
 a p:hover {
-    background-color: #666;
+    background-color: #f78db9;
 }
 a p:active{
-    background-color: #37373a;
+    background-color: #ce3e7a;
 }
 /* technique: keeping the native elements together, div ids are not native so they go below */
 #container {
     width: 800px;
     height: auto;
     background-image: url(../images/photo-bkg.jpg);
-    background-color: #969698;
+    background-color: #ffffff;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: top;
@@ -86,7 +87,7 @@ a p:active{
 }
 #trans-flower{
     position: absolute;
-    width: 200px;
+    width: 85px;
     right:0;
     bottom: 0;
     opacity: 35%;
